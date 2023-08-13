@@ -6,8 +6,8 @@
 
 class Fixed{
 	private:
-		float	_num;
-		static const int _cnum = 8;
+		int	_fixedPoint;
+		static const int _fractionalBit = 8;
 	public:
 		Fixed(void);
 		Fixed(Fixed const & num);
@@ -18,6 +18,8 @@ class Fixed{
 
 		float	toFloat(void) const;
 		int		toInt(void) const ;
+		int		getRawBits(void) const;
+		void	setRawBits(int const raw);
 };
 
 std::ostream & operator<<(std::ostream & out, Fixed const & num);

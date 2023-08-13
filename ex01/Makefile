@@ -1,4 +1,4 @@
-NAME = Canonical
+NAME = fixedPoint
 CC = c++
 FLAGS = -std=c++98 -g -Wall -Wextra -Werror
 SRC = main.cpp Fixed.cpp
