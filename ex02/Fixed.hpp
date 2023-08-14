@@ -12,20 +12,20 @@ class Fixed{
 		Fixed(void);
 		Fixed(Fixed const & num);
 		Fixed& operator= (Fixed const & num);
-		Fixed& operator== (Fixed const & num);
-		Fixed& operator>= (Fixed const & num);
-		Fixed& operator> (Fixed const & num);
-		Fixed& operator<= (Fixed const & num);
-		Fixed& operator< (Fixed const & num);
-		Fixed& operator!= (Fixed const & num);
-		Fixed& operator* (Fixed const & num);
+		bool const operator== (Fixed const & num);
+		bool const operator>= (Fixed const & num);
+		bool const operator> (Fixed const & num);
+		bool const operator<= (Fixed const & num);
+		bool const operator< (Fixed const & num);
+		bool const operator!= (Fixed const & num);
+		/* Fixed& operator* (Fixed const & num);
 		Fixed& operator/ (Fixed const & num);
 		Fixed& operator+ (Fixed const & num);
 		Fixed& operator- (Fixed const & num);
 		Fixed& operator++ (void);
 		Fixed operator++ (int num);
 		Fixed& operator-- (void);
-		Fixed operator-- (int num);
+		Fixed operator-- (int num); */
 		Fixed(const int num);
 		Fixed(const float num);
 		~Fixed();
