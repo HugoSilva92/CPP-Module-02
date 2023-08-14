@@ -22,6 +22,10 @@ class Fixed{
 		Fixed& operator/ (Fixed const & num);
 		Fixed& operator+ (Fixed const & num);
 		Fixed& operator- (Fixed const & num);
+		Fixed& operator++ (void);
+		Fixed operator++ (int num);
+		Fixed& operator-- (void);
+		Fixed operator-- (int num);
 		Fixed(const int num);
 		Fixed(const float num);
 		~Fixed();
