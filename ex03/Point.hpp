@@ -3,6 +3,8 @@
 
 #include "Fixed.hpp"
 
+//Class that creates a point on the x and y axis so we can connect our triangle.
+
 class Point{
     private:
         Fixed const _x;

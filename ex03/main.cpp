@@ -7,7 +7,7 @@ int main( void ) {
 	Point const a(3, 4);
 	Point const b(4, 7);
 	Point const c(6, -3);
-	Point const dot(1, 2);
+	Point const dot(3.5, 3.5);
 
 	if(bsp( a, b, c, dot))
 		std::cout << "Its in there!" << std::endl;

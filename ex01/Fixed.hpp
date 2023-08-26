@@ -4,10 +4,13 @@
 #include <iostream>
 #include <cmath>
 
+//Some good reading about fixed points and how they work:
+//https://en.wikipedia.org/wiki/Fixed-point_arithmetic
+
 class Fixed{
 	private:
-		int	_fixedPoint;
-		static const int _fractionalBit = 8;
+		int					_fixedPoint;
+		static const int	_fractionalBit = 8;
 	public:
 		Fixed(void);
 		Fixed(Fixed const & num);
