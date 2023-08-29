@@ -16,8 +16,8 @@ class Point{
         Point& operator= (Point const & dot);
         ~Point();
 
-        int axisY(void)const;
-        int axisX(void)const;
+        float axisY(void)const;
+        float axisX(void)const;
 };
 
 #endif

@@ -22,10 +22,10 @@ Point::~Point(void){
 
 }
 
-int Point::axisX(void)const{
+float Point::axisX(void)const{
     return _x.toFloat();
 }
 
-int Point::axisY(void)const{
+float Point::axisY(void)const{
     return _y.toFloat();
 }
